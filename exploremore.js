@@ -3,10 +3,11 @@ function EYFbtn() {
 }
 
 function SPOLbtn() {
-    location.replace("SPOLvideo.html");
+    location.replace("SPOlvideo.html");
 }
 
 function MADDbtn() {
     location.replace("MADDvideo.html");
 }
+
 
