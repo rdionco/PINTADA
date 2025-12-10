@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.logo {
+    background-color: #000;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-align: center;
+    padding: 1.67vh; 
+    margin-bottom: -0.83vh; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2.08vw; 
+    padding: 1.67vh; 
+    background: #000;
+    border-top: 1px solid #222;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.divider {
+    border-left: 1px solid #555;
+    height: 1.67vh; 
+    margin-top: 0.25vh; 
+}
+
+/* Exhibition Grid Section */
+.exhibit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 5vh 5%;
+    background: #f2f2f2;
+}
+
+.exhibit-card {
+    padding: 30px;
+    text-align: center;
+}
+
+.exhibit-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.exhibit-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.exhibit-card h3 span {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Color variants */
+.exhibit-card.grey {
+    background: #444444;
+    color: white;
+}
+
+.exhibit-card.light {
+    background: #D3DAD9;
+    color: black;
+}

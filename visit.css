@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background-color: #e9e9e9;
+  font-family: Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.logo {
+    background-color: #000;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-align: center;
+    padding: 1.67vh; 
+    margin-bottom: -0.83vh; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2.08vw; 
+    padding: 1.67vh; 
+    background: #000;
+    border-top: 1px solid #222;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.divider {
+    border-left: 1px solid #555;
+    height: 1.67vh; 
+    margin-top: 0.25vh; 
+}
+
+.header2 {
+  position: relative;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  overflow: hidden;
+}
+
+.header2-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://weblinks.nationalmuseum.gov.ph/wp-content/uploads/2021/08/01132355/IMG_5234-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 80%;
+}
+
+.header2 h1 {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  color: #fff;
+  line-height: 1.05;
+  font-size: 1.8rem;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.header2 .visit {
+  font-size: 4.4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  display: block;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.page-wrapper {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0 1.5rem;
+}
+
+.museum-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.museum-card {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.museum-image {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.museum-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.museum-info {
+  flex: 1;
+  color: #000;
+  text-align: justify;
+}
+
+.museum-info h2 {
+  font-size: 2.4rem;
+  margin: 0.2rem 0;
+}
+
+.museum-info p {
+  margin: 0.15rem 0;
+  font-size: 1.2rem;
+}
+
+.museum-info a {
+  color: #00f;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .museum-card {
+    flex-direction: column;
+    text-align: center;
+    max-width: 92%;
+  }
+
+  .museum-image {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+}
